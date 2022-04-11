@@ -9,7 +9,7 @@ function SlideBottom() {
 
   return (
       <div>
-          <MotionButton colorScheme="blue" size="lg" variant="outline"  marginTop="150px" marginLeft="480px"
+          <MotionButton colorScheme="blue" size="lg" variant="outline"  marginTop="150px" marginLeft="630px"
           animate={{y:[500, 80, 50] }} 
           transition={{ ease: "easeOut", duration: 1 }}
           whileHover={{scale:1.5}}
