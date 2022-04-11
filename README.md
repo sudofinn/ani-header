@@ -6,6 +6,10 @@ using Chakra ui and Framer Motion.  ✔️
 
 ## Snapshots
 
+
+https://user-images.githubusercontent.com/102916500/162778067-7912dcfc-4e39-4580-809d-34e1e19f99e6.mp4
+
+
  
 
 ## Install , run
