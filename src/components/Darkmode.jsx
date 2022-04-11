@@ -1,4 +1,5 @@
 import React from 'react'
+import classes from "./Darkmode.module.css"
 
 import {IconButton} from "@chakra-ui/react"
 import {useColorMode} from "@chakra-ui/react"
@@ -15,11 +16,12 @@ function Darkmode() {
 
 
   return (
-    <MotionIconButton float="right" marginRight="50px" position="relative" marginTop="-200" 
+    <MotionIconButton float="right" marginRight="80px" position="relative" marginTop="-200" 
       icon={colorMode === "light" ? <FaSun /> : <FaMoon/>}
+      className={classes.general}
       isRound="true"
       size="lg"
-      animate={{ rotate: 360 , y:[0,75,60]}}
+      animate={{ rotate: 360 , y:[0,105,60]}}
       transition={{ duration: 1 }} 
       whileHover={{scale:1.5}}
       onClick={toggleColorMode}>
